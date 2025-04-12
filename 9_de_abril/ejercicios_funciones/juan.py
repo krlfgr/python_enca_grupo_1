@@ -12,3 +12,19 @@ def reemplazar_vocales(cadena):
             return cadena
 
 print(reemplazar_vocales("Hola Mundo"))
+
+
+# Escribir una función que reciba una lista de palabras y retorne la longitud promedio de esas palabras
+
+Lista=["japon","china","españa","francia"]
+
+def longitud_de_las_palabras(palabras):
+    if palabras == 0:
+        return 0
+    total = 0 
+    for palabra in palabras:
+        total += len(palabra)
+        return total / len(palabras)
+
+
+print(longitud_de_las_palabras(Lista))

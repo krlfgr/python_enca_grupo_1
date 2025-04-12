@@ -14,3 +14,13 @@ def cadena(cadena_texto="hola"):
     return modificado
     
 print(cadena("prueba"))
+
+# Escribir una función que reciba una lista de palabras y retorne la longitud promedio de esas palabras
+
+lista=["Arroz", "Aguacate", "Tomate"]
+def lista_palabra(lista):
+    longitud=
+    
+    return longitud
+
+print(lista_palabra)

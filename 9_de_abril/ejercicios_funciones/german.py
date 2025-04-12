@@ -23,3 +23,22 @@ def reemplazar_vocales(cadena):
 texto = input("Ingrese una cadena: ")
 resultado = reemplazar_vocales(texto)
 print("Cadena modificada:", resultado)
+
+
+
+def longitud_promedio (palabras):
+    # verificamos si la lista esta vacia
+    if not palabras:
+        return 0 # retornamos 0 si no hay palabras
+
+    #calculamos la suma de las longitudes de las palabras
+    total_longitud = sum(len(palabra) for palabra in palabras)
+
+    # calculamos la longitud promedio
+    promedio = total_longitud / len(palabras)
+
+    return promedio
+
+lista_palabras = ["programacion", "tecnologia", "sistemas", "portatil"]
+resultado = longitud_promedio(lista_palabras)
+print ("la longitud promedio de las palabras es:", resultado)
